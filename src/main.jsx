@@ -1,9 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import PopulationControlGame from './PopulationControlGame';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 
-ReactDOM.createRoot(document.getElementById('app')).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <PopulationControlGame />
+    <div>Hello Population Control</div>
   </React.StrictMode>
-);
+)

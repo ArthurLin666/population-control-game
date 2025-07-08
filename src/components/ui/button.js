@@ -1,0 +1,1 @@
+export const Button = ({ onClick, children, className }) => <button onClick={onClick} className={`p-3 rounded border border-white hover:bg-white hover:text-black ${className}`}>{children}</button>;
